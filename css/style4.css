@@ -1,0 +1,240 @@
+main {
+  background: #fffefe;
+}
+
+@media screen and (min-width: 1024px) {
+  h2 {
+    color: var(--text, #080606);
+    font-family: SchoolBook;
+    font-style: normal;
+    font-weight: 300;
+  }
+  .result {
+    display: grid;
+    height: 85vh;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .result .bird {
+    position: absolute; /* Абсолютное позиционирование для изображения */
+    bottom: 36%;
+    width: 10vw;
+    height: 15vh;
+    left: 53%;
+  }
+  .result .number {
+    color: var(--brown, #59443f);
+    font-family: SchoolBook;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110px;
+    text-align: center;
+  }
+
+  .result .help {
+    font-style: normal;
+    font-size: 2em;
+    text-align: left;
+  }
+
+  .quality {
+    height: 70vh;
+    margin-bottom: 30%;
+  }
+  .quality .why {
+    text-align: center;
+    color: var(--text, #080606);
+    font-family: SchoolBook;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .quality .containergrid {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3, 23%);
+    font-size: 100px;
+    grid-row-gap: 70px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .quality .containergrid .card {
+    color: var(--brown, #59443f);
+    font-family: Futura New;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    width: 30vw;
+  }
+  .quality .containergrid .card .icons {
+    width: 4vw;
+    height: 7vh;
+  }
+  .quality .containergrid .card .textarea {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 10%;
+    grid-column-gap: 10px;
+    width: 28vw;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  h2 {
+    color: var(--text, #080606);
+    font-family: SchoolBook;
+    font-style: normal;
+    font-weight: 300;
+    height: 7vh;
+  }
+  .result {
+    display: grid;
+    height: 85vh;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .result .bird {
+    position: absolute; /* Абсолютное позиционирование для изображения */
+    bottom: 36%;
+    width: 13vw;
+    height: 15vh;
+    left: 57%;
+  }
+  .result .number {
+    color: var(--brown, #59443f);
+    font-family: SchoolBook;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110px;
+    text-align: center;
+  }
+
+  .result .help {
+    font-style: normal;
+    font-size: 2em;
+    text-align: left;
+  }
+
+  .quality {
+    height: 70vh;
+    margin-bottom: 30%;
+  }
+  .quality .why {
+    text-align: center;
+    color: var(--text, #080606);
+    font-family: SchoolBook;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .quality .containergrid {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3, 30%);
+    font-size: 100px;
+    grid-row-gap: 70px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
+  }
+
+  .quality .containergrid .card {
+    color: var(--brown, #59443f);
+    font-family: Futura New;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    width: 27vw;
+  }
+  .quality .containergrid .card .icons {
+    width: 4vw;
+    height: 5vh;
+  }
+  .quality .containergrid .card .textarea {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    color: var(--text, #080606);
+    font-family: SchoolBook;
+    font-style: normal;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .result {
+    display: grid;
+    height: 85vh;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .result .bird {
+    position: absolute; /* Абсолютное позиционирование для изображения */
+    bottom: 36%;
+    width: 20vw;
+    height: 15vh;
+    left: 60%;
+  }
+  .result .number {
+    color: var(--brown, #59443f);
+    font-family: SchoolBook;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110px;
+    text-align: center;
+  }
+
+  .result .help {
+    font-style: normal;
+    font-size: 2em;
+    text-align: left;
+  }
+
+  .quality {
+    height: 70vh;
+    margin-bottom: 30%;
+  }
+  .quality .why {
+    text-align: center;
+    color: var(--text, #080606);
+    font-family: SchoolBook;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .quality .containergrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 100px;
+    margin: 10%;
+  }
+
+  .quality .containergrid .card {
+    color: var(--brown, #59443f);
+    font-family: Futura New;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .quality .containergrid .card .icons {
+    width: 8vw;
+    height: 7vh;
+  }
+  .quality .containergrid .card .textarea {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 5%;
+  }
+}
