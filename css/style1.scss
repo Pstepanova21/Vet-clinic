@@ -1,0 +1,155 @@
+@import "./fonts";
+
+body {
+  max-width: 1920px;
+  min-width: 240px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "FuturaNewBook400", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #fffefe;
+}
+
+.header {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+
+.nav {
+  width: 60%;
+
+  &__wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item {
+    padding: 5px;
+    font-family: "FuturaNewBold700", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  &__link {
+    color: #c3b9b5;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.3;
+
+    &:hover {
+      color: #59443f;
+
+      &:hover::before {
+        width: 100%;
+      }
+    }
+  }
+}
+
+#location {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-family: "FuturaNewBold700", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #ffc59e;
+}
+
+.main-screen {
+  &__wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  &__sidebar {
+    width: 20%;
+  }
+
+  &__box {
+    width: 79%;
+  }
+}
+
+.carouselposition {
+  width: 45%;
+}
+
+h1 {
+  font-family: "SchoolBook", sans-serif;
+  font-style: normal;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 137.5%;
+  color: #080606;
+}
+
+.main__button {
+  font-family: "FuturaNewBold700", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #ffc59e;
+  border-radius: 33.5px;
+  border: 1px solid #ffc59e;
+  box-shadow: 0px 4px 20px 0px #ffc59e;
+  padding: 0.5rem 1.25rem;
+  transition: 0.3s all;
+
+  &:hover {
+    background-color: #59443f;
+    border-color: #59443f;
+  }
+}
+
+.telefone {
+  font-family: "FuturaNewBold700", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 125%;
+  color: #59443f;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social_icons {
+  &__wrapper {
+    display: flex;
+  }
+
+  &__item {
+    padding: 50px;
+  }
+}
