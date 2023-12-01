@@ -1,0 +1,87 @@
+@import "./fonts";
+
+body {
+  max-width: 1920px;
+  min-width: 240px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "FuturaNewBook400", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #fffefe;
+}
+
+.header {
+  display: flex;
+  max-width: 1760px;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+
+.nav {
+  width: 70%;
+
+  &__wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item {
+    padding: 5px;
+    font-family: "FuturaNewBold700", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  &__link {
+    color: #c3b9b5;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.3;
+
+    &:hover {
+      color: #59443f;
+
+      &:hover::before {
+        width: 100%;
+      }
+    }
+  }
+}
+
+#location {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-family: "FuturaNewBold700", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #ffc59e;
+}
