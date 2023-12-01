@@ -14,11 +14,9 @@ body {
 
 .header {
   display: flex;
-  max-width: 1760px;
-  justify-content: space-between;
+  margin: 0 auto;
+  justify-content: space-around;
   padding-top: 2rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
 }
 
 a,
@@ -38,7 +36,7 @@ ul {
 }
 
 .nav {
-  width: 70%;
+  width: 60%;
 
   &__wrapper {
     display: flex;
@@ -84,4 +82,74 @@ ul {
   font-weight: 700;
   line-height: 20px;
   color: #ffc59e;
+}
+
+.main-screen {
+  &__wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  &__sidebar {
+    width: 20%;
+  }
+
+  &__box {
+    width: 79%;
+  }
+}
+
+.carouselposition {
+  width: 45%;
+}
+
+h1 {
+  font-family: "SchoolBook", sans-serif;
+  font-style: normal;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 137.5%;
+  color: #080606;
+}
+
+.main__button {
+  font-family: "FuturaNewBold700", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #ffc59e;
+  border-radius: 33.5px;
+  border: 1px solid #ffc59e;
+  box-shadow: 0px 4px 20px 0px #ffc59e;
+  padding: 0.5rem 1.25rem;
+  transition: 0.3s all;
+
+  &:hover {
+    background-color: #59443f;
+    border-color: #59443f;
+  }
+}
+
+.telefone {
+  font-family: "FuturaNewBold700", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 125%;
+  color: #59443f;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social_icons {
+  &__wrapper {
+    display: flex;
+  }
+
+  &__item {
+    padding: 50px;
+  }
 }
