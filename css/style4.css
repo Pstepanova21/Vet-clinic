@@ -17,11 +17,9 @@ main {
   }
 
   .result .bird {
-    position: absolute; /* Абсолютное позиционирование для изображения */
-    bottom: 36%;
-    width: 10vw;
+    width: 15vw;
     height: 15vh;
-    left: 53%;
+    margin-left: 70%;
   }
   .result .number {
     color: var(--brown, #59443f);
@@ -62,7 +60,7 @@ main {
     align-content: center;
   }
 
-  .quality .containergrid .card {
+  .quality .containergrid .el-4 {
     color: var(--brown, #59443f);
     font-family: Futura New;
     font-size: 1.25rem;
@@ -70,11 +68,11 @@ main {
     font-weight: 400;
     width: 30vw;
   }
-  .quality .containergrid .card .icons {
+  .quality .containergrid .el-4 .icons {
     width: 4vw;
     height: 7vh;
   }
-  .quality .containergrid .card .textarea {
+  .quality .containergrid .el-4 .textarea {
     display: grid;
     grid-template-columns: 20% 80%;
     margin-top: 10%;
@@ -98,11 +96,9 @@ main {
   }
 
   .result .bird {
-    position: absolute; /* Абсолютное позиционирование для изображения */
-    bottom: 36%;
-    width: 13vw;
+    width: 15vw;
     height: 15vh;
-    left: 57%;
+    margin-left: 70%;
   }
   .result .number {
     color: var(--brown, #59443f);
@@ -144,7 +140,7 @@ main {
     margin-top: 10%;
   }
 
-  .quality .containergrid .card {
+  .quality .containergrid .el-4 {
     color: var(--brown, #59443f);
     font-family: Futura New;
     font-size: 1.25rem;
@@ -152,11 +148,11 @@ main {
     font-weight: 400;
     width: 27vw;
   }
-  .quality .containergrid .card .icons {
+  .quality .containergrid .el-4 .icons {
     width: 4vw;
     height: 5vh;
   }
-  .quality .containergrid .card .textarea {
+  .quality .containergrid .el-4 .textarea {
     display: grid;
     grid-template-columns: 20% 80%;
     margin-top: 10%;
@@ -179,11 +175,9 @@ main {
   }
 
   .result .bird {
-    position: absolute; /* Абсолютное позиционирование для изображения */
-    bottom: 36%;
-    width: 20vw;
+    width: 15vw;
     height: 15vh;
-    left: 60%;
+    margin-left: 70%;
   }
   .result .number {
     color: var(--brown, #59443f);
@@ -198,7 +192,7 @@ main {
   .result .help {
     font-style: normal;
     font-size: 2em;
-    text-align: left;
+    text-align: center;
   }
 
   .quality {
@@ -221,18 +215,18 @@ main {
     margin: 10%;
   }
 
-  .quality .containergrid .card {
+  .quality .containergrid .el-4 {
     color: var(--brown, #59443f);
     font-family: Futura New;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
   }
-  .quality .containergrid .card .icons {
+  .quality .containergrid .el-4 .icons {
     width: 8vw;
     height: 7vh;
   }
-  .quality .containergrid .card .textarea {
+  .quality .containergrid .el-4 .textarea {
     display: grid;
     grid-template-columns: 20% 80%;
     margin: 5%;
