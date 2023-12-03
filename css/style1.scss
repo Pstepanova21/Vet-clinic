@@ -49,9 +49,9 @@ ul {
     padding: 5px;
     font-family: "FuturaNewBold700", sans-serif;
     font-style: normal;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 100%;
   }
 
   &__link {
@@ -78,9 +78,9 @@ ul {
   padding: 5px;
   font-family: "FuturaNewBold700", sans-serif;
   font-style: normal;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 100%;
   color: #ffc59e;
 }
 
@@ -100,24 +100,21 @@ ul {
   }
 }
 
-.carouselposition {
-  width: 45%;
-  max-width: 800px;
-  max-height: 800px;
-}
-
 h1 {
   font-family: "SchoolBook", sans-serif;
   font-style: normal;
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 400;
   line-height: 137.5%;
   color: #080606;
 }
 
 .main__button {
+  position: absolute;
+  top: 43rem;
+  z-index: 1;
   font-family: "FuturaNewBold700", sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #ffffff;
   background-color: #ffc59e;
   border-radius: 33.5px;
@@ -135,23 +132,30 @@ h1 {
 .telefone {
   font-family: "FuturaNewBold700", sans-serif;
   font-style: normal;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 125%;
   color: #59443f;
 }
 
+.contacts__wrapper {
+  position: relative;
+  top: -10rem;
+  left: -3rem;
+  z-index: 1;
+}
 .contacts {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .social_icons {
   &__wrapper {
     display: flex;
   }
 
   &__item {
-    padding: 50px;
+    padding: 3.125rem;
   }
 }
