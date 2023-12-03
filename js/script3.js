@@ -1,6 +1,6 @@
 $(function () {
   // Owl Carousel
-  var owl = $(".owl-carousel");
+  var owl = $(".main-spec_owl-carousel");
   owl.owlCarousel({
     items: 6,
     margin: 10,
