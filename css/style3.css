@@ -40,6 +40,9 @@
   font-family: "FuturaNewBold700", sans-serif;
   font-size: 1.25rem;
 }
+main_3 {
+  width: 100%;
+}
 .main-history,
 .main-spec {
   background-color: #fbf8f8;
@@ -98,3 +101,8 @@
 .main-spec_owl-carousel .owl-next {
   right: -7%;
 }
+
+.main-spec_owl-carousel img {
+  max-width: 200px;
+}
+/* добавить сюда медиа-запросы */
