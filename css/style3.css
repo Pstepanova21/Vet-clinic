@@ -84,17 +84,17 @@
   padding-bottom: 0.25rem;
 }
 /* Owl-carousel buttons */
-.owl-carousel {
+.main-spec_owl-carousel {
   position: relative;
 }
-.owl-prev,
-.owl-next {
+.main-spec_owl-carousel .owl-prev,
+.main-spec_owl-carousel .owl-next {
   position: absolute;
   top: 35%;
 }
-.owl-prev {
+.main-spec_owl-carousel .owl-prev {
   left: -7%;
 }
-.owl-next {
+.main-spec_owl-carousel .owl-next {
   right: -7%;
 }
