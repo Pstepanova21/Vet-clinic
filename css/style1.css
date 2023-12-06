@@ -133,22 +133,14 @@ h1 {
 .main__button:hover {
   background-color: #59443f;
   border-color: #59443f;
-}
-
-.telefone {
-  font-family: "FuturaNewBold700", sans-serif;
-  font-style: normal;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 125%;
-  color: #59443f;
+  box-shadow: 0px 4px 20px 0px #59443f;
 }
 
 .contacts__wrapper {
   position: relative;
   top: -10rem;
-  left: -3rem;
-  z-index: 1;
+  left: 0;
+  z-index: 2;
 }
 
 .contacts {
@@ -159,7 +151,51 @@ h1 {
 
 .social_icons__wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 3.125rem;
+       column-gap: 3.125rem;
 }
 .social_icons__item {
-  padding: 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+.social_icons__item svg {
+  fill: #c3b9b5;
+}
+.social_icons__item:hover svg {
+  fill: #ffc59e;
+  border-radius: 50%;
+  box-shadow: 0px 4px 20px 0px #ffc59e;
+}
+
+.main__phone {
+  font-family: "FuturaNewBold700", sans-serif;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 125%;
+  white-space: nowrap;
+}
+.main__phone a {
+  position: relative;
+  display: inline-block;
+  color: #59443f;
+}
+.main__phone a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+  border-radius: 50px;
+  border: 1px solid #c3b9b5;
+  background-color: #c3b9b5;
+}
+.main__phone a:hover::before {
+  width: 100%;
 }/*# sourceMappingURL=style1.css.map */
