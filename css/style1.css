@@ -102,6 +102,19 @@ ul {
 }
 .main-screen__sidebar {
   width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.main-screen__scroll {
+  display: flex;
+  vertical-align: middle;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.main-screen__scroll img {
+  max-width: 40px;
+  max-height: 490px;
+  height: auto;
 }
 .main-screen__box {
   width: 79%;
@@ -138,7 +151,7 @@ h1 {
 
 .contacts__wrapper {
   position: relative;
-  top: -10rem;
+  top: -10%;
   left: 0;
   z-index: 2;
 }
@@ -198,4 +211,100 @@ h1 {
 }
 .main__phone a:hover::before {
   width: 100%;
+}
+
+@media screen and (max-width: 1620px) {
+  .contacts__wrapper {
+    top: -5%;
+  }
+  .main__button {
+    top: 40rem;
+  }
+}
+@media screen and (max-width: 1420px) {
+  .main__button {
+    top: 37rem;
+  }
+}
+@media screen and (max-width: 1320px) {
+  .main__button {
+    top: 34rem;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .main__button {
+    top: 32rem;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .main__button {
+    top: 31rem;
+  }
+  h1 {
+    font-size: 4.5rem;
+  }
+  .nav__item {
+    font-size: 1rem;
+  }
+  #location {
+    font-size: 1rem;
+  }
+  .main__phone {
+    font-size: 1.25rem;
+  }
+  .main-screen__scroll {
+    padding-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .main__button {
+    top: 30rem;
+  }
+  .main-screen__sidebar {
+    display: none;
+  }
+  .main-screen__wrapper {
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .main__button {
+    top: 28rem;
+  }
+}
+@media screen and (max-width: 965px) {
+  .main__button {
+    top: 25rem;
+  }
+  .nav__item {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 915px) {
+  .main__button {
+    top: 24rem;
+  }
+}
+@media screen and (max-width: 880px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  .main__button {
+    top: 23rem;
+  }
+  #location {
+    font-size: 0.9rem;
+  }
+  .main__phone {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 840px) {
+  .main__button {
+    top: 22rem;
+  }
 }/*# sourceMappingURL=style1.css.map */
