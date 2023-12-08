@@ -36,10 +36,6 @@ main {
     text-align: left;
   }
 
-  .quality {
-    height: 70vh;
-    margin-bottom: 30%;
-  }
   .quality .why {
     text-align: center;
     color: var(--text, #080606);
@@ -114,10 +110,6 @@ main {
     text-align: left;
   }
 
-  .quality {
-    height: 70vh;
-    margin-bottom: 30%;
-  }
   .quality .why {
     text-align: center;
     color: var(--text, #080606);
@@ -194,10 +186,6 @@ main {
     text-align: left;
   }
 
-  .quality {
-    height: 70vh;
-    margin-bottom: 30%;
-  }
   .quality .why {
     text-align: center;
     color: var(--text, #080606);
@@ -273,10 +261,6 @@ main {
     text-align: center;
   }
 
-  .quality {
-    height: 70vh;
-    margin-bottom: 30%;
-  }
   .quality .why {
     text-align: center;
     color: var(--text, #080606);
