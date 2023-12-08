@@ -103,6 +103,8 @@ ul {
     padding-top: 3rem;
     padding-bottom: 2rem;
     img {
+      position: relative;
+      right: 3rem;
       max-width: 40px;
       max-height: 490px;
       height: auto;
@@ -150,6 +152,7 @@ h1 {
   left: 0;
   z-index: 2;
 }
+
 .contacts {
   display: flex;
   justify-content: space-between;
@@ -234,11 +237,43 @@ h1 {
   .main__button {
     top: 34rem;
   }
+
+  .main-screen__scroll {
+    img {
+      position: relative;
+      right: 2rem;
+      max-width: 40px;
+      max-height: 490px;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contacts__wrapper {
+    top: -4%;
+  }
+}
+
+@media screen and (max-width: 1175px) {
+  .contacts__wrapper {
+    top: -2%;
+  }
+}
+
+@media screen and (max-width: 1175px) {
+  .contacts__wrapper {
+    top: -1%;
+  }
 }
 
 @media screen and (max-width: 1160px) {
   .main__button {
     top: 32rem;
+  }
+
+  .contacts__wrapper {
+    top: 0;
   }
 }
 
@@ -266,6 +301,10 @@ h1 {
   .main-screen__scroll {
     padding-bottom: 3rem;
   }
+
+  .contacts__wrapper {
+    top: 3%;
+  }
 }
 
 @media screen and (max-width: 1060px) {
@@ -282,6 +321,10 @@ h1 {
       margin: 0 auto;
       justify-content: center;
     }
+  }
+
+  .contacts__wrapper {
+    top: -3%;
   }
 }
 
@@ -330,7 +373,82 @@ h1 {
 }
 
 @media screen and (max-width: 840px) {
+  h1 {
+    font-size: 3rem;
+  }
+
   .main__button {
-    top: 22rem;
+    top: 21rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__button {
+    top: 10rem;
+  }
+
+  .contacts__wrapper {
+    top: -40%;
+  }
+
+  .contacts {
+    display: inline;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .social_icons {
+    width: 100%;
+
+    &__wrapper {
+      justify-content: start;
+      column-gap: 2rem;
+    }
+  }
+
+  .main__phone {
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacts__wrapper {
+    top: -30%;
+  }
+
+  .main__button {
+    top: 9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main__button {
+    top: 7rem;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .contacts__wrapper {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .main__button {
+    top: 6rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
   }
 }
