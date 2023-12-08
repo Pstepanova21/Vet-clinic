@@ -1,8 +1,10 @@
 @font-face {
-    font-family: 'Futura New';
-    src: url('/assets/fonts/Futura-New/FuturaNewBook-Reg.woff') format('woff'),
-         url('/assets/fonts/Futura-New/FuturaNewBold-Obl.woff2') format('woff2');
-    font-weight: normal;
+    font-family: "FuturaNewBook400";
+    src: url("../assets/fonts/FuturaNewBook-Reg.eot") format("eot"),
+      url("../assets/fonts/FuturaNewBook-Reg.ttf") format("ttf"),
+      url("../assets/fonts/FuturaNewBook-Reg.woff") format("woff"),
+      url("../assets/fonts/FuturaNewBook-Reg.woff2") format("woff2");
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -10,7 +12,7 @@ footer {
     background-color: #59443F;
     color: #FFFFFF;
     font-size: 1rem;
-    font-family:"Futura New";
+    font-family:"FuturaNewBook400";
 }
 
 a {
@@ -24,23 +26,28 @@ a:hover {
     color: #9b9b9b; 
 }
 
+.confident {
+    margin-left: 2%;
+}
+
 .my-custom-button {
     border-radius: 0px;
 }
-.link {
-    margin-top: 38px;
-}
+
+
 .custom-button-heart {
     border-radius: 0px;
     padding: 0px 0px;
-    margin-bottom: 2%;
     margin-left: 0%;
 }
-p {
-    margin-top: 70px;
+
+.made-with-unitbean {
+    margin-top: 18%;
 }
+
 .custom-button-a {
-    margin-right: 20px;
+    margin-top: 3%;
+    margin-right: 10%;
 }
 
   /* Изменение порядка и отображения на маленьких экранах */
@@ -58,8 +65,14 @@ p {
     .col12 { order: 7; }
 
     .col1, .col9,.col10, .col8, .col5, .col6, .col12 {
-    margin-left: 20px;
+    margin-left: 2px;
     } 
+    .custom-button-a {
+        margin-top: 0%;
+        margin-right: 5%;
+        
+    }
+
 }
 .custom-padding-f1 {
     margin-top: 1%;
