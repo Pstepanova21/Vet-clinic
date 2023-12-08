@@ -144,6 +144,7 @@ main {
     font-style: normal;
     font-weight: 400;
     width: 30vw;
+    margin-bottom: 18vh;
   }
   .quality .containergrid .el-4 .icons {
     width: 4vw;
