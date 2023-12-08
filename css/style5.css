@@ -1,0 +1,132 @@
+.container-fluid__app {
+  background-color: rgb(255, 197, 158);
+}
+
+.app__intro {
+  color: white;
+  padding-left: 15%;
+  margin-top: 15%;
+  z-index: 8;
+  min-width: 30%;
+  min-height: 25%;
+}
+.app__intro__soon {
+  font-size: 20px;
+}
+.app__intro__main {
+  font-size: 60px;
+}
+
+.app__intro_dog__img {
+  z-index: 5;
+  min-width: 430px;
+  min-height: 550px;
+  margin-bottom: 10%;
+  transform: rotate(0.01turn);
+  transform: translate(-60%, 40%);
+  position: relative;
+}
+
+.app__intro_frame__img {
+  z-index: 9;
+  position: relative;
+  transform: translate(-90%, 10%);
+  margin-bottom: 20%;
+}
+
+.app__intro__btn {
+  padding-left: 15%;
+  margin-bottom: 15%;
+  border: none;
+  z-index: 3;
+}
+
+.google_badge {
+  max-width: 167px;
+  max-height: 49px;
+  border: none;
+}
+
+.map__header {
+  font-size: 40px;
+  margin-top: 190px;
+  margin-bottom: 100px;
+}
+
+.card-body__card-title {
+  font-size: 30px;
+  color: rgb(8, 6, 6);
+}
+
+.card-body_card-text {
+  font-size: 20px;
+  color: rgb(89, 68, 63);
+}
+
+.map {
+  width: 950px;
+  height: 526px;
+}
+
+ol {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.list-phone {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(89, 68, 63);
+}
+.list-phone::before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  width: 1em;
+  height: 1em;
+  background-image: url("https://cdn-icons-png.flaticon.com/128/3247/3247310.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.list-watch {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(89, 68, 63);
+}
+.list-watch::before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  width: 1em;
+  height: 1em;
+  background-image: url("https://cdn-icons-png.flaticon.com/128/2972/2972531.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.list-adress {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(89, 68, 63);
+}
+.list-adress::before {
+  content: "";
+  display: inline-block;
+  margin-right: 1px;
+  width: 1.5em;
+  height: 1.5em;
+  background-image: url("https://cdn-icons-png.flaticon.com/128/7721/7721893.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=style6.css.map */
