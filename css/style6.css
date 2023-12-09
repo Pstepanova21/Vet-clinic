@@ -44,10 +44,11 @@ a:hover {
     padding-left: 20px;
 }
 
-.custom-button-heart {
-    border-radius: 0px;
-    padding: 0px 0px;
-    margin-left: 0%;
+.whatsapp-black-heart {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
 }
 
 .made-with-unitbean {
@@ -74,7 +75,7 @@ a:hover {
 
   /* Изменение порядка и отображения на маленьких экранах */
 @media (max-width: 767px) {
-    .col2, .col3, .col4, .col7, .col11 {
+    .col1, .col3, .col4, .col7, .col11 {
     display: none;
     }
 

@@ -64,8 +64,8 @@
 }
 
 .map {
-  width: 950px;
-  height: 526px;
+  width: 100%;
+  height: 100%;
 }
 
 .map_instalation {
@@ -89,6 +89,9 @@
 
 .map_instalation_link_search_frame {
 position:relative;
+width:100%;
+height:560pxgit;
+
 }
 
 ol {

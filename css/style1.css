@@ -112,6 +112,8 @@ ul {
   padding-bottom: 2rem;
 }
 .main-screen__scroll img {
+  position: relative;
+  right: 3rem;
   max-width: 40px;
   max-height: 490px;
   height: auto;
@@ -230,10 +232,35 @@ h1 {
   .main__button {
     top: 34rem;
   }
+  .main-screen__scroll img {
+    position: relative;
+    right: 2rem;
+    max-width: 40px;
+    max-height: 490px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .contacts__wrapper {
+    top: -4%;
+  }
+}
+@media screen and (max-width: 1175px) {
+  .contacts__wrapper {
+    top: -2%;
+  }
+}
+@media screen and (max-width: 1175px) {
+  .contacts__wrapper {
+    top: -1%;
+  }
 }
 @media screen and (max-width: 1160px) {
   .main__button {
     top: 32rem;
+  }
+  .contacts__wrapper {
+    top: 0;
   }
 }
 @media screen and (max-width: 1090px) {
@@ -255,6 +282,9 @@ h1 {
   .main-screen__scroll {
     padding-bottom: 3rem;
   }
+  .contacts__wrapper {
+    top: 3%;
+  }
 }
 @media screen and (max-width: 1060px) {
   .main__button {
@@ -266,6 +296,9 @@ h1 {
   .main-screen__wrapper {
     margin: 0 auto;
     justify-content: center;
+  }
+  .contacts__wrapper {
+    top: -3%;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -304,7 +337,162 @@ h1 {
   }
 }
 @media screen and (max-width: 840px) {
+  h1 {
+    font-size: 3rem;
+  }
   .main__button {
-    top: 22rem;
+    top: 21rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    background-color: #ffc59e;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  .header__logo {
+    display: inline-block;
+  }
+  .side-menu {
+    display: none;
+  }
+  .nav {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 3;
+    background-color: #ffc59e;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-out;
+  }
+  .nav__wrapper a {
+    display: block;
+    padding: 30px;
+    color: #fffefe;
+  }
+  .nav__wrapper aa:hover {
+    background-color: #59443f;
+  }
+  .hamb {
+    cursor: pointer;
+    float: right;
+    padding: 40px 20px;
+  }
+  .hamb-line {
+    background: #fffefe;
+    display: block;
+    height: 2px;
+    position: relative;
+    z-index: 4;
+    width: 24px;
+  }
+  .hamb-line::before,
+  .hamb-line::after {
+    background: #fffefe;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    z-index: 4;
+    transition: all 0.2s ease-out;
+    width: 100%;
+  }
+  .hamb-line::before {
+    top: 5px;
+  }
+  .hamb-line::after {
+    top: -5px;
+  }
+  .side-menu:checked ~ nav {
+    max-height: 100%;
+  }
+  .side-menu:checked ~ .hamb .hamb-line {
+    background: transparent;
+  }
+  .side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+  .side-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  .main__button {
+    top: 10rem;
+  }
+  .contacts__wrapper {
+    top: -40%;
+  }
+  .contacts {
+    display: inline;
+    justify-content: start;
+    align-items: center;
+  }
+  .social_icons {
+    width: 100%;
+  }
+  .social_icons__wrapper {
+    justify-content: start;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+  .main__phone {
+    padding-top: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .nav {
+    max-height: none;
+    top: 0;
+    position: relative;
+    float: right;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .nav__wrapper li {
+    float: left;
+  }
+  .nav__wrapper a:hover {
+    background-color: transparent;
+    color: var(--gray);
+  }
+  .hamb {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contacts__wrapper {
+    top: -30%;
+  }
+  .main__button {
+    top: 9rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main__button {
+    top: 7rem;
+  }
+}
+@media screen and (max-width: 435px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .contacts__wrapper {
+    top: 0;
+  }
+}
+@media screen and (max-width: 340px) {
+  .main__button {
+    top: 6rem;
+  }
+  h1 {
+    font-size: 1.5rem;
   }
 }/*# sourceMappingURL=style1.css.map */
