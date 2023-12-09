@@ -16,8 +16,8 @@ main {
   }
 
   .result .bird {
-    width: 10vw;
-    height: 15vh;
+    width: 50%;
+    height: 50%;
     margin-left: 70%;
   }
   .result .number {
@@ -90,8 +90,8 @@ main {
   }
 
   .result .bird {
-    width: 10vw;
-    height: 15vh;
+    width: 50%;
+    height: 50%;
     margin-left: 70%;
   }
   .result .number {
@@ -166,8 +166,8 @@ main {
   }
 
   .result .bird {
-    width: 15vw;
-    height: 15vh;
+    width: 40%;
+    height: 40%;
     margin-left: 70%;
   }
   .result .number {
@@ -241,8 +241,8 @@ main {
   }
 
   .result .bird {
-    width: 20vw;
-    height: 15vh;
+    width: 40%;
+    height: 40%;
     margin-left: 70%;
   }
   .result .number {
