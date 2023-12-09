@@ -68,6 +68,29 @@
   height: 526px;
 }
 
+.map_instalation {
+  position:relative;
+  overflow:hidden;
+}
+
+.map_instalation_link {
+  color:#eee;
+  font-size:12px;
+  position:absolute;
+  top:0px;
+}
+
+.map_instalation_link_search {
+  color:#eee;
+  font-size:12px;
+  position:absolute;
+  top:14px;
+}
+
+.map_instalation_link_search_frame {
+position:relative;
+}
+
 ol {
   margin-left: 0;
   padding-left: 0;
