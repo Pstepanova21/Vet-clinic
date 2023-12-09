@@ -36,7 +36,7 @@ a:hover {
 
 .my-custom-button-appstore {
     border-radius: 0px;
-    padding-right: 0px 0px;
+    padding-right: 0px;
 }
 
 .my-custom-button-google {
@@ -99,7 +99,7 @@ a:hover {
 
     .my-custom-button-appstore {
         border-radius: 0px;
-        padding-right: 0px 0px;
+        padding-right: 0px;
     }
     
     .my-custom-button-google {
