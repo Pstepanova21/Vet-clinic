@@ -1,3 +1,22 @@
+@font-face {
+  font-family: "FuturaNewBold700";
+  src: url("../assets/fonts/FuturaNewBold-Reg.eot") format("eot"), url("../assets/fonts/FuturaNewBold-Reg.ttf") format("ttf"), url("../assets/fonts/FuturaNewBold-Reg.woff") format("woff"), url("../assets/fonts/FuturaNewBold-Reg.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FuturaNewBook400";
+  src: url("../assets/fonts/FuturaNewBook-Reg.eot") format("eot"), url("../assets/fonts/FuturaNewBook-Reg.ttf") format("ttf"), url("../assets/fonts/FuturaNewBook-Reg.woff") format("woff"), url("../assets/fonts/FuturaNewBook-Reg.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SchoolBook";
+  src: url("../assets/fonts/SchoolBookC.eot") format("eot"), url("../assets/fonts/SchoolBookC.ttf") format("ttf"), url("../assets/fonts/SchoolBookC.woff") format("woff"), url("../assets/fonts/SchoolBookC.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
 .container-fluid__app {
   background-color: rgb(255, 197, 158);
 }
@@ -11,9 +30,13 @@
   min-height: 25%;
 }
 .app__intro__soon {
+  
+  font-family: FuturaNewBook sans-serif;
   font-size: 20px;
 }
+
 .app__intro__main {
+  font-family: SchoolBook sans-serif;
   font-size: 60px;
 }
 
@@ -48,24 +71,28 @@
 }
 
 .map__header {
+  font-family: SchoolBook sans-serif;
   font-size: 40px;
   margin-top: 190px;
   margin-bottom: 100px;
 }
 
 .card-body__card-title {
+  font-family: SchoolBook sans-serif;
   font-size: 30px;
   color: rgb(8, 6, 6);
 }
 
 .card-body_card-text {
+  font-family: FuturaNewBook sans-serif;
   font-size: 20px;
+  line-height: 30px;
   color: rgb(89, 68, 63);
 }
 
 .map {
   width: 100%;
-  height: 100%;
+  min-height: 560px;
 }
 
 .map_instalation {
@@ -90,7 +117,7 @@
 .map_instalation_link_search_frame {
 position:relative;
 width:100%;
-height:560pxgit;
+min-height: 560px;
 
 }
 
@@ -148,11 +175,150 @@ li {
 .list-adress::before {
   content: "";
   display: inline-block;
-  margin-right: 1px;
-  width: 1.5em;
-  height: 1.5em;
-  background-image: url("https://cdn-icons-png.flaticon.com/128/7721/7721893.png");
+  margin-right: 10px;
+  width: 1em;
+  height: 1em;
+  background-image: url("https://cdn-icons-png.flaticon.com/128/8065/8065913.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}/*# sourceMappingURL=style6.css.map */
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    
+  .app__intro__btn {
+    padding-left: 15%;
+    margin-bottom: 15%;
+    border: none;
+    z-index: 3;
+      }
+  
+  .google_badge {
+    max-width: 167px;
+    max-height: 49px;
+    border: none;
+  }
+  
+  .app__intro {
+    color: white;
+    padding-left: 15%;
+    margin-top: 15%;
+    z-index: 16;
+    min-width: 30%;
+    min-height: 25%;
+  }
+  
+  .app__intro__soon {
+    
+    font-family: FuturaNewBook sans-serif;
+    font-size: 10px;
+  }
+  
+  .app__intro__main {
+    font-family: SchoolBook sans-serif;
+    font-size: 20px;
+  }
+  
+  .app__intro_dog__img {
+    z-index: 0;
+    max-width: 30px;
+    max-height: 50px;
+    margin-bottom: 10%;
+    transform: rotate(0.01turn);
+    transform: translate(-60%, 40%);
+    position: relative;
+    }
+  
+  
+  .app__intro_frame__img {
+    z-index: 9;
+    max-width: 100px;
+    max-height: 150px;
+    position: relative;
+    transform: translate(-90%, 10%);
+    margin-bottom: 20%;
+  }
+  
+  .map__header {
+    font-family: SchoolBook sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-body__card-title {
+    font-family: SchoolBook sans-serif;
+    font-size: 12px;
+    color: rgb(8, 6, 6);
+  }
+  
+  .map_instalation_link_search_frame {
+    position:relative;
+    width:100%;
+    min-height: 260px;
+    display: none;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+  
+  .app__intro {
+    color: white;
+    padding-left: 15%;
+    margin-top: 15%;
+    z-index: 16;
+    min-width: 30%;
+    min-height: 25%;
+  }
+
+  .app__intro__soon {
+    
+    font-family: FuturaNewBook sans-serif;
+    font-size: 12px;
+  }
+  
+  .app__intro__main {
+    font-family: SchoolBook sans-serif;
+    font-size: 30px;
+  }
+
+  .app__intro_dog__img {
+    z-index: 0;
+    max-width: 130px;
+    max-height: 150px;
+    margin-bottom: 10%;
+    transform: rotate(0.01turn);
+    transform: translate(-60%, 40%);
+    position: relative;
+  }
+    
+.app__intro_frame__img {
+  z-index: 3;
+  position: relative;
+  transform: translate(-90%, 10%);
+  margin-bottom: 20%;
+}
+  
+  .map__header {
+    font-family: SchoolBook sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-body__card-title {
+    font-family: SchoolBook sans-serif;
+    font-size: 16px;
+    color: rgb(8, 6, 6);
+  }
+  
+  .map_instalation_link_search_frame {
+    position:relative;
+    width:100%;
+    min-height: 260px;
+  }
+}
+
+
+/*# sourceMappingURL=style6.css.map */
