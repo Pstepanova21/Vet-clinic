@@ -49,6 +49,7 @@ a:hover {
     background: none;
     padding: 0;
     margin: 0;
+    outline: none;
 }
 
 .made-with-unitbean {
