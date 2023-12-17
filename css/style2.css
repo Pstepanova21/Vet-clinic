@@ -1,0 +1,64 @@
+.container-card {
+    max-width: 1352px;
+    margin: 0 auto;
+}
+
+.service-card {
+    flex-shrink: 0;
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    border: 0.0001px solid #ffffff;
+    min-height: 220px;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 0.0001px solid #59443f5c;
+}
+.service-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+
+.service-card > h2 {
+    font-family: 'Schoolbook', serif;
+    color: #59443f;
+    font-family: SchoolBook;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.service-box > img {
+    width: auto;
+    height: 110px;
+    position: absolute;
+    right: 24px;
+    bottom: auto;
+}
+
+.service-card:hover img {
+    filter: brightness(0.4);
+}
+
+.service-box > p {
+    color: var(--brown, #59443F);
+    font-family: Futura New;
+    font-size: 20px;
+    font-style: normal;
+}
+@media (min-width: 768px) and (max-width: 1366px) {
+    .service-card > h2 {
+    font-size: 24px;
+    line-height: 32px;
+    }
+}

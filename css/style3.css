@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "FuturaNewBold700";
+  src: url("../assets/fonts/FuturaNewBold-Reg.eot") format("eot"),
+    url("../assets/fonts/FuturaNewBold-Reg.ttf") format("ttf"),
+    url("../assets/fonts/FuturaNewBold-Reg.woff") format("woff"),
+    url("../assets/fonts/FuturaNewBold-Reg.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FuturaNewBook400";
+  src: url("../assets/fonts/FuturaNewBook-Reg.eot") format("eot"),
+    url("../assets/fonts/FuturaNewBook-Reg.ttf") format("ttf"),
+    url("../assets/fonts/FuturaNewBook-Reg.woff") format("woff"),
+    url("../assets/fonts/FuturaNewBook-Reg.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SchoolBook";
+  src: url("../assets/fonts/SchoolBookC.eot") format("eot"),
+    url("../assets/fonts/SchoolBookC.ttf") format("ttf"),
+    url("../assets/fonts/SchoolBookC.woff") format("woff"),
+    url("../assets/fonts/SchoolBookC.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+/* Styling start*/
+.main-history_title,
+.main-spec_title {
+  font-family: "SchoolBook", serif;
+  font-size: 2.5rem;
+}
+.main-history_text {
+  font-family: "FuturaNewBold400", sans-serif;
+  font-size: 1.25rem;
+}
+.main-history_link,
+.main-spec_link {
+  font-family: "FuturaNewBold700", sans-serif;
+  font-size: 1.25rem;
+}
+.main-history,
+.main-spec {
+  background-color: #fbf8f8;
+  color: #080606;
+}
+.main-history_grid_r,
+.main-spec_grid_r {
+  justify-content: center;
+}
+.main-history_grid_c,
+.main-spec_grid_c {
+  text-align: center;
+}
+.main-spec_owl-carousel img {
+  border-radius: 50%;
+}
+.main-history_grid_c {
+  margin-top: 6rem;
+}
+.main-spec_grid_c {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+.main-history_text,
+.main-spec_owl-carousel {
+  text-align: start;
+  margin-top: 3.25rem;
+  margin-bottom: 3rem;
+}
+.main-history_text {
+  color: #59443f;
+}
+
+.main-history_link,
+.main-spec_link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffc59e;
+  font-weight: bolder;
+}
+.link-arrow {
+  padding-bottom: 0.25rem;
+}
+/* Owl-carousel buttons */
+.main-spec_owl-carousel {
+  position: relative;
+}
+.main-spec_owl-carousel .owl-prev,
+.main-spec_owl-carousel .owl-next {
+  position: absolute;
+  top: 35%;
+}
+.main-spec_owl-carousel .owl-prev {
+  left: -7%;
+}
+.main-spec_owl-carousel .owl-next {
+  right: -7%;
+}
+
+/* Adaptation tests */
+.main-spec_owl-carousel .owl-item {
+  display: flex;
+  justify-content: space-around;
+}
+.main-history_text {
+  padding: 0 2rem;
+}
+.main-spec_owl-carousel .owl-stage {
+  display: flex;
+  justify-content: center;
+}
