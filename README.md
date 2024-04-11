@@ -1,1 +1,3 @@
-Сайт ветеринарной клиники "Айболит" - https://pstepanova21.github.io/team_project1/
+Сайт ветеринарной клиники "Айболит" 
+
+Реализация: https://pstepanova21.github.io/Vet-clinic/
